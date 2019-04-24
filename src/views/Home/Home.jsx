@@ -5,7 +5,6 @@ import classNames from "classnames";
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -15,7 +14,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import HomeSection from "./Sections/HomeSection.jsx";
 
-
+import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
   render() {
